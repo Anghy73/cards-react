@@ -1,0 +1,39 @@
+html {
+  font-family: system-ui;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  cursor: crosshair;
+}
+
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  color: #fff;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(13, 17, 23);
+}
+
+.app__title {
+  margin: 3rem 0 1rem;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem 2rem;
+  padding: 2rem 0;
+}
